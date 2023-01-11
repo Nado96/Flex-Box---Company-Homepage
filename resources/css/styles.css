@@ -93,3 +93,43 @@ main {
 
 /* Main - Choices */
 
+.choices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.choices-head {
+    padding: 1rem;
+}
+
+.choice-containers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.choice {
+    width: 300px;
+    height: 420px;
+    margin: 15px 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    color: white !important;
+    overflow: hidden;
+}
+
+.choice picture {
+    display: flex;
+    justify-content: center;
+    height: 75%;
+    width: auto;
+    width: 250px;
+    overflow: hidden;
+}
