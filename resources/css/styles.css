@@ -128,8 +128,7 @@ main {
 .choice picture {
     display: flex;
     justify-content: center;
-    height: 75%;
-    width: auto;
+    height: 70%;
     width: 250px;
     overflow: hidden;
 }
